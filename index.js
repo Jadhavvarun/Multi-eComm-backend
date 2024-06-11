@@ -26,6 +26,8 @@ const cartRoute = require("./api/cart/cart.route")
 app.use("/api/login",loginRoute)
 app.use("/api/cart",cartRoute)
 
-app.listen(process.env.APP_PORT, function () {
-  console.log('Example app listening on port 4000!');
-});
+// app.listen(process.env.APP_PORT, function () {
+//   console.log('Example app listening on port 4000!');
+// });
+
+app.listen()
